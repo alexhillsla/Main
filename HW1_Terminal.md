@@ -80,25 +80,33 @@ Ctrl `c`
 http://162.55.220.72:5005/terminal-hw-request 
 
 Запрос : 
+
   
 `curl http://162.55.220.72:5005/terminal-hw-request`  
+
   
 Ответ :
     
+
 ```% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                     Dload  Upload   Total   Spent    Left  Speed
     100   237  100   237    0     0   1527      0 --:--:-- --:--:-- --:--:--  1538{"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}```   
+
     
 Второй запрос :
 
-`curl "http://162.55.220.72:5005/get_method?name=Alex&age=34"`. 
+
+`curl "http://162.55.220.72:5005/get_method?name=Alex&age=34"`
+
 
 Ответ :
+
     
 ```% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                     Dload  Upload   Total   Spent    Left  Speed
     100    25  100    25    0     0    127      0 --:--:-- --:--:-- --:--:--   127["Alex","34"]
     ```
+
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
