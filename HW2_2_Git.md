@@ -52,6 +52,6 @@
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 
-`git checkout main`
-`git pull` #Already up to date
+`git checkout main`   
+`git pull` #Already up to date   
 `git push` #Everything up-to-date
