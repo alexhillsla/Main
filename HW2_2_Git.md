@@ -16,18 +16,22 @@
 3. В ветке Bug_Reports сделать текстовый документ 
 со структурой баг репорта
 
-`git checkout Bug_Reports`
-`git vim pattern_of_BR.txt`
+```
+git checkout Bug_Reports
+git vim pattern_of_BR.txt
+```
 
 4. Запушить структуру баг репорта на внешний репозиторий
 
-`git add .`
-`git commit -m "add new file"`
-`git push`
+```
+git add .
+git commit -m "add new file"
+git push
+```
 
 5. Вмержить ветку Bug_Reports в Main 
 
-встать на `*main` ветку
+Встать на `*main` ветку
 
 `git merge Bug_Reports`
 
@@ -37,14 +41,18 @@
 
 7. В ветке Check_Lists набросать структуру чек листа.
 
-`git checkout Check_Lists`
-`vim pattern_of_BR_2.txt`
+```
+git checkout Check_Lists
+vim pattern_of_BR_2.txt
+```
 
 8. Запушить структуру на внешний репозиторий
 
-`git add .`
-`git commit -m "add new file"`
-`git push`
+```
+git add .
+git commit -m "add new file"
+git push
+```
 
 9. На внешнем репозитории сделать Pull Request ветки
 
